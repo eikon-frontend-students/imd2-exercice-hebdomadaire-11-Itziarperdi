@@ -12,3 +12,28 @@ img,
 video {
   display: block;
 }
+.like-button {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 10px 20px;
+  border-radius: 19px;
+  margin: 50px;
+  color: #f00;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+  background: none;
+  border: 2px solid #f00;
+}
+
+span {
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+}
