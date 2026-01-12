@@ -37,3 +37,12 @@ span {
   font-weight: 400;
   line-height: 18px; /* 128.571% */
 }
+
+.like-button.is-active {
+  color: white;
+  background: #f00;
+  span {
+    color: white;
+  }
+  transition: all 0.3s ease-in-out;
+}
